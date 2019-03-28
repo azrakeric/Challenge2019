@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jaren {
+    display: flex;
+    align-items: flex-end;
+}
+
+.vmbob,
+.vmbok,
+.vmbot,
+.havo6,
+.havo,
+.atheneum,
+.tweetaligvwo {
+    height: fit-content;
+    padding: 15px;
+}
+
+.yas {
+    font-size: 100px;
+}
+
+.vmbob div,
+.vmbok div,
+.vmbot div,
+.havo6 div,
+.havo div,
+.atheneum div,
+.tweetaligvwo div {
+    height: fit-content;
+    padding: 15px;
+}
+.vmbobwrap ,
+.vmbokwrap ,
+.vmbotwrap ,
+.havo6wrap ,
+.havowrap ,
+.atheneumwrap ,
+.tweetaligvwowrap  {
+    padding: 15px;
+    margin: 25px 15px 0 0;
+}
+.vmbob , .groen {
+    background-color: green;
+}
+
+.vmbok {
+    background-color: green;
+}
+
+.vmbot ,.blauw {
+    background-color: blue;
+}
+
+.havo6 ,.paars {
+    background-color: purple;
+}
+
+.havo ,.roze{
+    background-color: pink;
+}
+
+.atheneum,.roze {
+    background-color: pink;
+}
+
+.tweetaligvwo,.roze {
+    background-color: pink;
+}
+
+.nivaus{
+    display:flex;
+    flex-direction: row;
+}
+.nivaus div{
+    margin-left: 15px;
+    padding: 10px;
+}
+.nivaus div:nth-child(2),.nivaus div:nth-child(4){
+    margin-left: 10px;
+}.nivaus div:nth-child(3){
+    margin-left: 3px;
+}
+.jaren {
+    width: 100%;
+    display: flex
+}

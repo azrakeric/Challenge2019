@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body { 
+    color: white; 
+}
+
+
+.geheel{ 
+    font-size: 100px;
+}
+
+.wrappergeheel{ 
+    padding: 15px;
+    margin: 25px 15px 0 0;
+    color: black;
+}
+
+.jaren {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    color: black;  
+    display: flex;
+    align-items: flex-end;
+    width: 680px;
+}
+
+
+.vwo div, 
+.atheneum div, 
+.havo div, 
+.havo6 div, 
+.vmbotl div, 
+.vmbokb div, 
+.vmbob div { 
+    height: fit-content;
+    padding: 15px;
+}
+
+.vwo,
+.atheneum,
+.havo,
+.havo6,
+.vmbotl,
+.vmbokb,
+.vmbob{ 
+    color:#fff;
+}
+.vwowrap,
+.atheneumwrap,
+.havowrap, 
+.havo6wrap,
+.vmbotlwrap, 
+.vmbokbwrap, 
+.vmbobwrap{ 
+    padding: 5px;
+    margin-left: 15px 30px;
+    padding-bottom: 0;
+}
+
+.vwowrap,
+.atheneumwrap{
+    padding: 0 2px ;
+}
+.vwo:nth-child(1){
+    margin-top: 2px;
+
+}
+.vwo , .groen {
+    background-color: rgb(160, 45, 136)
+}
+
+.atheneum{
+    background-color:  rgb(160, 45, 136)
+}
+
+.havo ,.blauw {
+    background-color: rgb(160, 45, 136)
+}
+
+.havo6 ,.paars {
+    background-color: rgb(134, 109, 167)
+}
+
+.vmbotl ,.roze{
+    background-color: rgb(0, 75, 151)
+}
+
+.vmbokb,.roze {
+    background-color: rgb(0, 150, 115)
+}
+
+.vmbob,.roze {
+    background-color: rgb(0, 150, 115)
+}
+
+.bottom1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-top: 15px;
+    text-align: center;
+    width: 84px;
+    height: 60px;
+    display: inline-block;
+    color: white;
+}
+

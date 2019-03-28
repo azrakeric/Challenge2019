@@ -1,0 +1,121 @@
+<div class="tabl">
+    <table>
+        <td>
+    <div class="vwo">tweetalig<br>VWO</div> 
+</td>
+    </table>
+    <div class="atheneum">atheneum</div>
+    <div class= "havo">havo</div>
+    <div class="havo6">havo 6</div>
+    <div class="vmbotl">vmbo<br>theoretisch</div>
+    <div class="vmbokb"></div>
+    <div class="vmbobasis"></div>
+</div>
+
+
+ <div id="bg"> 
+            <th></th>
+            <td><div class="zes">6e jaar</div></td> 
+            </tr>
+
+            
+            <tr>
+                <td><div class="vijf">5e jaar</div></td>
+
+            
+            </tr>    
+            <tr>
+                <td><div class="vier">4e jaar</div></td> 
+            </tr>
+            <tr>
+                <td><div class="drie">3e jaar</div></td>
+        
+            </tr>
+            <tr>
+                <td><div class="twee">2e jaar</div></td>
+            </tr>
+            
+        </div> 
+
+        div class="wrapper">
+                <div id="bg">
+            <table class="vwo"> 
+            <tr>
+                <td><div class="zes">6e jaar</div></td><td><div class="zeshavo">6e jaar</div></td><td><div class="zes">6e jaarhavo</div></td>
+                
+            </tr>
+            <tr>
+                <td><div class="vijf">5e jaar</div></td>
+
+            </tr>    
+            <tr>
+                <td><div class="vier">4e jaar</div></td> 
+            </tr>
+            <tr>
+                <td><div class="drie">3e jaar</div></td>
+        
+            </tr>
+            <tr>
+                <td><div class="twee">2e jaar</div></td>
+            </tr>
+
+           
+       
+              <tr> 
+                <td><div class="zeshavo">6e jaar</div></td> 
+                </tr>
+    
+    
+                <tr>
+                    <td><div class="vijfhavo">5e jaar</div></td>
+                
+                </tr>    
+                <tr>
+                    <td><div class="vierhavo">4e jaar</div></td> 
+                </tr>
+                <tr>
+                    <td><div class="driehavo">3e jaar</div></td>
+            
+                </tr>
+                <tr>
+                    <td><div class="tweehavo">2e jaar</div></td>
+                </tr>
+                
+          
+        
+
+
+        
+ 
+
+
+
+            
+        </div>
+
+           
+    </table>
+
+
+     <div class="nivaus">
+            <div class="groen">
+                <h4>klas 1 vmbo basis</h4>
+            </div>
+            <div class="groen">
+                <h4>klas 1 vmbo kader</h4>
+            </div>
+            <div class="blauw">
+                <h4>klas 1 vmbo theroetisch</h4>
+            </div>
+            <div class="paars">
+                <h4>klas 1 vmbo/havo</h4>
+            </div>
+            <div class="roze">
+                <h4>klas 1 atheneum/havo</h4>
+            </div>
+            <div class="roze">
+                <h4>klas 1 tweestallig vwo</h4>
+            </div>
+        </div>
+    </div>
+        
