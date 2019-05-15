@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../ChallengeMei/challenge2019meiWinkelwagen.js"></script>
+    <link rel="stylesheet" href="../ChallengeMei/challenge2019meiWinkelwagen.css">
+    <link rel="stylesheet" href="../ChallengeMei/challenge2019mei.css">
+    <title>Winkelwagen</title>
+</head>
+<body>
+<div id="slideholder">
+                <div class="logo">
+                    <p class= "menutekst">Winkelwagen </p><p class= "rtl">Eco Animal Foods</p>
+                </div> 
+            
+            <div id="menubalk">
+                    <ul class="ul">
+                            <li><a class="active" href="../ChallengeMei/challenge2019mei.html">Kies uw huisdier</a></li>
+                            <li><a href="../ChallengeMei/challenge2019meiHonden.html">Honden</a></li>
+                            <li><a href="../ChallengeMei/challenge2019meiKatten.html">Katten</a></li>
+                            <li><a href="../ChallengeMei/challenge2019meiKonijnen.html">Konijnen</a></li>
+                            <li><a class="contact" href="../ChallengeMei/challenge2019meiOverons.html">Over ons</a></li>
+                            <li><a class="contact" href="../ChallengeMei/challenge2019meiContact.html">Contact</a></li>
+                          </ul>
+                        </div>
+    <div class="shopping-cart">
+
+        <div class="column-labels">
+          <label class="product-image">Image</label>
+          <label class="product-details">Product</label>
+          <label class="product-price">Prijs</label>
+          <label class="product-quantity">Hoeveelheid</label>
+          <label class="product-removal">Verwijderen</label>
+          <label class="product-line-price">Totaal</label>
+        </div>
+      
+        <div class="product">
+          <div class="product-image">
+            <img src="../ImgMei/droog.jpg">
+          </div>
+          <div class="product-details">
+            <div class="product-title">Droge Brokken</div>
+            <p class="product-description">Als aanvulling op de natte maaltijd van uw hond.</p>
+          </div>
+          <div class="product-price">5,00</div>
+          <div class="product-quantity">
+            <input type="number" value="2" min="1">
+          </div>
+          <div class="product-removal">
+            <button class="remove-product">
+              Remove
+            </button>
+          </div>
+          <div class="product-line-price">5,00</div>
+        </div>
+      
+        <div class="product">
+          <div class="product-image">
+            <img src="../ImgMei/nat.jpg">
+          </div>
+          <div class="product-details">
+            <div class="product-title">Natte Brokken</div>
+            <p class="product-description">Het allerbeste voor uw hond. Holistisch en 
+                biologisch natvoer.</p>
+          </div>
+          <div class="product-price">2,50</div>
+          <div class="product-quantity">
+            <input type="number" value="1" min="1">
+          </div>
+          <div class="product-removal">
+            <button class="remove-product">
+              Remove
+            </button>
+          </div>
+          <div class="product-line-price">2,50</div>
+        </div>
+      
+        <div class="product">
+            <div class="product-image">
+              <img src="../ImgMei/vitamines.jpg">
+            </div>
+            <div class="product-details">
+              <div class="product-title">Vitamines</div>
+              <p class="product-description">Ook honden houden kunnen soms extra
+                supplementen gebruiken.</p>
+            </div>
+            <div class="product-price">1,00</div>
+            <div class="product-quantity">
+              <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">1,00</div>
+          </div>
+
+        <div class="totals">
+          <div class="totals-item">
+            <label>Subtotal</label>
+            <div class="totals-value" id="cart-subtotal">8,50</div>
+          </div>
+          <div class="totals-item">
+            <label>Btw (21%)</label>
+            <div class="totals-value" id="cart-tax">1,79</div>
+          </div>
+          <div class="totals-item">
+            <label>Verzendkosten</label>
+            <div class="totals-value" id="cart-shipping">6,95</div>
+          </div>
+          <div class="totals-item totals-item-total">
+            <label>Totaal</label>
+            <div class="totals-value" id="cart-total">17,24</div>
+          </div>
+        </div>
+            
+            <button class="checkout">Afrekenen</button>
+      
+      </div>
+    </div>
+</body>
+</html>

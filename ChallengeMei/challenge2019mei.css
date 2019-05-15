@@ -1,0 +1,154 @@
+#slideholder { 
+  align-items: center; 
+  margin: 50px;
+  margin-right: 100px; 
+  
+    }
+
+.logo{ 
+  width: 100%; 
+  height: 30%; 
+  background-color: #34421E;
+  padding: 20px; 
+}
+ p.rtl {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 35px;  
+    color: wheat; 
+    background-color: #34421E;   
+    text-align: right; 
+
+
+  }
+    #menubalk{
+     height: 25%;
+     width: 100%; 
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+     font-size: larger; 
+ }
+ 
+
+ body{ 
+     margin: 0; 
+     background-image: url(../ImgMei/backgrnd.jpg); 
+     padding-left: 20px; 
+     background-repeat: no-repeat; 
+     background-position: left; 
+     background-size: 20%; 
+     
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 51px;
+    padding: 0px;
+    width: 12%;
+    background-color: #56642A;
+    position: absolute;  
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color:#C19434;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color:yellow;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black; 
+    text-align: center;
+ }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p{ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 25px; 
+  color: #555; 
+  text-align: center; 
+ 
+  width: 100%;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto; 
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #C19434;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.binnenkort{ 
+  margin: inherit; 
+  padding: 22px; 
+
+}
+
+.tekstb{ 
+  margin: inherit; 
+
+}
+
+.ul{ 
+  margin: 0px; 
+  height: fit-content; 
+}
+
+.contact{
+  background-color: rgb(161, 132, 67)
+}
+
+.menutekst{ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 35px;  
+  color: wheat; 
+  background-color: #34421E;   
+  text-align: left; 
+}
+
